@@ -18,36 +18,36 @@ export default async function Home(): Promise<JSX.Element> {
   return (
     <>
       <Suspense fallback={<AboutPlaceholder />}>
-        {/* @ts-expect-error Server Component */}
+
         <About />
       </Suspense>
 
       {/* <Photos images={photos} /> */}
 
       <Suspense fallback={<EducationsPlaceholder />}>
-        {/* @ts-expect-error Server Component */}
+
         <Server component="Educations" />
       </Suspense>
 
       <Suspense fallback={<ExperiencesPlaceholder />}>
-        {/* @ts-expect-error Server Component */}
+
         <Server component="Experiences" />
       </Suspense>
 
       <Suspense fallback={<PublicationsPlaceholder />}>
-        {/* @ts-expect-error Server Component */}
+
         <Server component="Publications" />
       </Suspense>
 
       <Suspense fallback={<ArticlesPlaceholder />}>
-        {/* @ts-expect-error Server Component */}
+
         <Server component="Articles" />
       </Suspense>
 
       {/* <Calendar /> */}
 
       <Suspense fallback={<LifeEventsPlaceholder />}>
-        {/* @ts-expect-error Server Component */}
+
         <Server component="LifeEvents" />
       </Suspense>
     </>

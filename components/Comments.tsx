@@ -15,7 +15,7 @@ export default function Comments(): JSX.Element {
         Feel free to leave a comment here! Please stick to English. This comment
         thread directly maps to a{" "}
         <Link
-          href="https://github.com/mirsazzathossain/mirsazzathossain.me/discussions/"
+          href="https://github.com/sultandelux/xponend/discussions/"
           target="blank"
         >
           <em className="text-teal-500">discussion on GitHub</em>
@@ -24,17 +24,17 @@ export default function Comments(): JSX.Element {
       </p>
       <Giscus
         id="comments"
-        repo="mirsazzathossain/mirsazzathossain.me"
-        repoId="R_kgDOH7B9og"
+        repo="sultandelux/xponend"
+        repoId="R_kgDOKFW42A"
         category="General"
-        categoryId="DIC_kwDOH7B9os4CTPDr"
+        categoryId="DIC_kwDOKFW42M4CYf5D"
         mapping="pathname"
         data-strict="0"
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="top"
         theme={theme}
-        lang="en"
+        lang="ru"
         loading="lazy"
       />
       <p className="mt-2 text-base text-zinc-600 dark:text-zinc-400">
@@ -48,7 +48,7 @@ export default function Comments(): JSX.Element {
         </Link>{" "}
         application, you can also comment directly{" "}
         <Link
-          href="https://github.com/mirsazzathossain/mirsazzathossain.me/discussions?discussions"
+          href="https://github.com/sultandelux/xponend/discussions?discussions"
           target="blank"
         >
           <em className="text-teal-500">on GitHub</em>
