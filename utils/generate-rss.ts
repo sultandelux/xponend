@@ -3,7 +3,7 @@ import { Feed } from "feed";
 import fs from "fs";
 
 export default async function generateRss(): Promise<void> {
-  const site_url = `${process.env.SITE_URL || "https://mirsazzathossain.me"}`;
+  const site_url = `${process.env.SITE_URL || "https://xponend.com"}`;
 
   const articles = await allArticles;
 
@@ -14,14 +14,14 @@ export default async function generateRss(): Promise<void> {
   );
 
   const author = {
-    name: "Mir Sazzat Hossain",
-    email: "mirsazzathossain@gmail.com",
-    link: "https://mirsazzathossain.me",
+    name: "Xponend",
+    email: "xponend@gmail.com",
+    link: "https://xponend.com",
   };
 
   const feedOptions = {
-    title: "RSS Feed - Mir Sazzat Hossain",
-    description: "Mir Sazzat Hossain's personal blog",
+    title: "RSS Feed - Xponend",
+    description: "Xponend blog",
     id: site_url,
     link: site_url,
     image: `${site_url}/images/og-image.png`,
