@@ -8,24 +8,24 @@ import ClientThemeProvider from "./theme-provider";
 
 export const metadata: Metadata = {
   title: {
-    default: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
-    template: "%s - Mir Sazzat Hossain",
+    default: "Xponend - Innovative Researcher and Skilled Mentor",
+    template: "%s - Xponend",
   },
   description:
-    "Mir Sazzat Hossain is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
-  generator: "Mir Sazzat Hossain - Personal Website",
-  applicationName: "Mir Sazzat Hossain - Personal Website",
+    "Xponend is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
+  generator: "Xponend - Personal Website",
+  applicationName: "Xponend - Personal Website",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "Mir Sazzat Hossain",
+    "Xponend",
     "Mir Sazzat",
     "Sazzat",
     "Sazzat Hossain",
     "Mir",
     "Hossain",
-    "Mir Sazzat Hossain",
-    "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
-    "Mir Sazzat Hossain - Personal Website",
+    "Xponend",
+    "Xponend - Innovative Researcher and Skilled Mentor",
+    "Xponend - Personal Website",
     "Sajjad",
     "Sajjat",
     "Hossain",
@@ -34,31 +34,31 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Mir Sazzat Hossain",
+      name: "Xponend",
       url: `${server}`,
     },
   ],
   themeColor: "#ffffff",
   colorScheme: "light",
-  creator: "Mir Sazzat Hossain",
-  publisher: "Mir Sazzat Hossain",
+  creator: "Xponend",
+  publisher: "Xponend",
   formatDetection: {
     telephone: true,
     address: true,
     email: true,
   },
   openGraph: {
-    title: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    title: "Xponend - Innovative Researcher and Skilled Mentor",
     description:
-      "Mir Sazzat Hossain is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
+      "Xponend is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
     url: `${server}`,
-    siteName: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    siteName: "Xponend - Innovative Researcher and Skilled Mentor",
     images: [
       {
         url: `${server}/images/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+        alt: "Xponend - Innovative Researcher and Skilled Mentor",
       },
     ],
     locale: "en_US",
@@ -114,16 +114,16 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@mir_sazzat",
-    title: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+    title: "Xponend - Innovative Researcher and Skilled Mentor",
     description:
-      "Mir Sazzat Hossain is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
+      "Xponend is a recent college graduate with a solid foundation in computer science as well as competence in exploratory data analysis, machine learning, computer vision, and statistics. He is currently working as a Research Assistant at the Independent University, Bangladesh's Center for Computational and Data Sciences.",
     creator: "@mir_sazzat",
     images: [
       {
         url: `${server}/images/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
+        alt: "Xponend - Innovative Researcher and Skilled Mentor",
       },
     ],
   },
