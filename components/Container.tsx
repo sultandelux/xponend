@@ -1,8 +1,13 @@
 import clsx from "clsx";
 import { forwardRef } from "react";
 
+type ContainerComponent = React.ForwardRefExoticComponent<{ children: React.ReactNode;[key: string]: any } & React.RefAttributes<unknown>> & {
+  Outer: typeof OuterContainer;
+  Inner: typeof InnerContainer;
+};
+
 const OuterContainer = forwardRef(function OuterContainer(
-  { className, children, ...props }: { className?: string; [key: string]: any },
+  { className, children, ...props }: { className?: string;[key: string]: any },
   ref
 ): JSX.Element {
   return (
@@ -13,7 +18,7 @@ const OuterContainer = forwardRef(function OuterContainer(
 });
 
 const InnerContainer = forwardRef(function InnerContainer(
-  { className, children, ...props }: { className?: string; [key: string]: any },
+  { className, children, ...props }: { className?: string;[key: string]: any },
   ref
 ): JSX.Element {
   return (
@@ -27,8 +32,8 @@ const InnerContainer = forwardRef(function InnerContainer(
   );
 });
 
-export const Container = forwardRef(function Container(
-  { children, ...props }: { children: React.ReactNode; [key: string]: any },
+const Container = forwardRef(function Container(
+  { children, ...props }: { children: React.ReactNode;[key: string]: any; },
   ref
 ): JSX.Element {
   return (
@@ -36,7 +41,9 @@ export const Container = forwardRef(function Container(
       <InnerContainer>{children}</InnerContainer>
     </OuterContainer>
   );
-});
+}) as unknown as ContainerComponent;
 
-(Container as any).Outer = OuterContainer;
-(Container as any).Inner = InnerContainer;
+Container.Outer = OuterContainer;
+Container.Inner = InnerContainer;
+
+export { Container };

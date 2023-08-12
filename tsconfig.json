@@ -2,7 +2,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "contentlayer/generated": ["./.contentlayer/generated"]
+      "contentlayer/generated": ["./.contentlayer/generated"],
+      "containers": ["./.contentlayer/generated"],
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -37,7 +38,7 @@
     "components/ThemeSelector.tsx",
     ".next/types/**/*.ts",
     "utils/generate-rss.mts",
-    "next-sitemap.config.js"
+    "next-1-sitemap.config.js"
 , "utils/generate-rss.ts"  ],
   "exclude": ["node_modules"]
 }

@@ -32,7 +32,7 @@ const PrettyCodeOptions: Partial<Options> = {
     }
   },
 
-  onVisitHighlightedWord(node: any) {
+  onVisitHighlightedChars(node: any) {
     node.properties.className = ["word"];
   },
 };

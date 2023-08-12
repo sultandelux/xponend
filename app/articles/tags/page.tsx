@@ -46,15 +46,15 @@ export async function generateMetadata({
     keywords: [...Object.keys(tags)],
     openGraph: {
       type: "website",
-      title: "Article Tags - Xponend",
+      title: "Article Tags - Mir Sazzat Hossain",
       description:
         "This page contains all the tags of articles available on this website.",
       url: `${server}/articles/tags`,
-      siteName: "Xponend - Innovative Researcher and Skilled Mentor",
+      siteName: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
       images: [
         {
           url: `${server}/images/og-image.png`,
-          alt: "Xponend - Innovative Researcher and Skilled Mentor",
+          alt: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
           width: 1200,
           height: 630,
         },
@@ -65,13 +65,13 @@ export async function generateMetadata({
       card: "summary_large_image",
       site: "@mir_sazzat",
       creator: "@mir_sazzat",
-      title: "Article Tags - Xponend",
+      title: "Article Tags - Mir Sazzat Hossain",
       description:
         "This page contains all the tags of articles available on this website.",
       images: [
         {
           url: `${server}/images/og-image.png`,
-          alt: "Xponend - Innovative Researcher and Skilled Mentor",
+          alt: "Mir Sazzat Hossain - Innovative Researcher and Skilled Mentor",
           width: 1200,
           height: 630,
         },

@@ -26,7 +26,6 @@ export default function LifeEvents({
             <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-zinc-800 dark:text-zinc-100">
               Life Events
             </h3>
-
             {Object.keys(lifeEvents)
               .reverse()
               .slice(0, 3)

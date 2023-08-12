@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import { server } from "../config";
 import "../styles/globals.css";
 import ClientThemeProvider from "./theme-provider";
+import { useRouter } from "next/navigation";
 
 export const metadata: Metadata = {
   title: {
@@ -134,7 +135,6 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "google-site-verification=0",
-    bing: "msvalidate.01=0",
     yandex: "yandex-verification=0",
   },
 
@@ -151,8 +151,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const router = useRouter()
   return (
-    <html className="h-full antialiased" lang="en">
+    <html lang="en">
       <head />
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black min-h-screen">
         <ClientThemeProvider>
@@ -165,7 +166,7 @@ export default function RootLayout({
             <Header />
             <main>{children}</main>
             <AnalyticsWrapper />
-            <Footer />
+            <Footer router={router} />
           </div>
         </ClientThemeProvider>
       </body>

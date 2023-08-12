@@ -154,7 +154,7 @@ export default function Header(): JSX.Element {
           marginBottom: "var(--header-mb)",
         }}
       >
-        {isHomePage && (
+        {/* {isHomePage && ( */}
           <>
             <div
               ref={avatarRef as any}
@@ -180,7 +180,7 @@ export default function Header(): JSX.Element {
               </div>
             </Container>
           </>
-        )}
+        {/* )} */}
         <div
           ref={headerRef as any}
           className="top-0 z-10 pt-6"
@@ -191,11 +191,11 @@ export default function Header(): JSX.Element {
           <Container>
             <div className="relative flex gap-4">
               <div className="flex flex-1">
-                {!isHomePage && (
+                {/* {!isHomePage && ( */}
                   <AvatarContainer>
                     <Avatar />
                   </AvatarContainer>
-                )}
+                {/* )} */}
               </div>
               <div className="flex flex-1 justify-end md:justify-center">
                 <MobileNavigation
@@ -216,7 +216,7 @@ export default function Header(): JSX.Element {
           </Container>
         </div>
       </header>
-      {isHomePage && <div style={{ height: "var(--content-offset)" }} />}
+      {/* {isHomePage && <div style={{ height: "var(--content-offset)" }} />} */}
     </>
   );
 }
