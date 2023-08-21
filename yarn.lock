@@ -1838,10 +1838,15 @@
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
-"@next/env@13.4.13", "@next/env@^13.4.13", "@next/env@^13.4.3":
+"@next/env@13.4.13":
   version "13.4.13"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.4.13.tgz#50250cec7626904b93a4a934933d6a747763259d"
   integrity sha512-fwz2QgVg08v7ZL7KmbQBLF2PubR/6zQdKBgmHEl3BCyWTEDsAQEijjw2gbFhI1tcKfLdOOJUXntz5vZ4S0Polg==
+
+"@next/env@^13.4.19", "@next/env@^13.4.3":
+  version "13.4.19"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-13.4.19.tgz#46905b4e6f62da825b040343cbc233144e9578d3"
+  integrity sha512-FsAT5x0jF2kkhNkKkukhsyYOrRqtSxrEhfliniIq0bwWbuXLgyt3Gv0Ml+b91XwjwArmuP7NxCiGd++GGKdNMQ==
 
 "@next/eslint-plugin-next@13.4.13":
   version "13.4.13"
